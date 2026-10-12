@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌主色 -->
+    <color name="brand_blue">#1E88E5</color>
+    <color name="brand_blue_dark">#1565C0</color>
+    <color name="brand_orange">#FF9800</color>
+
+    <!-- 纯色背景（主界面整屏纯蓝） -->
+    <color name="app_background">#2D6BFF</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="amount_red">#E53935</color>
+    <color name="unit_dark_red">#B71C1C</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#E0E0E0</color>
+
+    <!-- 七大类消费原因配色（图表与列表一致） -->
+    <color name="cat_survival_food">#FF9800</color>
+    <color name="cat_comfort_food">#F44336</color>
+    <color name="cat_guanqing">#E91E63</color>
+    <color name="cat_daily_tools">#2196F3</color>
+    <color name="cat_self_improvement">#4CAF50</color>
+    <color name="cat_utilities">#00BCD4</color>
+    <color name="cat_other">#9E9E9E</color>
+
+    <color name="ic_launcher_background">#1E88E5</color>
+</resources>

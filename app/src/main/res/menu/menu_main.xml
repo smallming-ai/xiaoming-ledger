@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_test_popup"
+        android:title="测试记账"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_quota"
+        android:title="每日额度"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_monthly_quota"
+        android:title="每月额度"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:title="使用须知"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_guide"
+        android:title="使用说明"
+        app:showAsAction="never" />
+</menu>

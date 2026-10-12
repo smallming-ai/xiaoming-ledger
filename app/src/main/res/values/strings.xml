@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小铭账本</string>
+
+    <!-- 通知栏快捷记账 -->
+    <string name="quick_record_title">小铭账本</string>
+    <string name="quick_record_desc">划下通知栏，点下方按钮快速记账</string>
+    <string name="quick_record_channel">快速记账</string>
+    <string name="quick_record_channel_desc">常驻通知，用于从通知栏快捷手动记账</string>
+    <string name="quick_record_add">记一笔</string>
+    <string name="quick_record_open">打开记账本</string>
+
+    <!-- 关于：使用须知与创作意图 -->
+    <string name="about_title">关于小铭账本</string>
+    <string name="about_usage">【使用须知】
+本应用为小铭同学自创作品，部分功能可能受手机系统限制，请在使用前完成以下设置：
+① 打开手机「设置」；
+② 进入「应用」列表，找到「小铭账本」；
+③ 点击进入应用详情；
+④ 选择「通知」一栏；
+⑤ 找到并开启「快速记账」。
+开启后，即可从通知栏一键进入记账，实现随手记账。
+
+【创作意图】
+小铭账本以「快速记账、轻松理财」为初衷。通过在通知栏常驻快捷入口，一步即可跳转到记账页面，帮助用户摆脱繁琐操作、克服记账惰性；首页的每日/每月消费额度进度条，则让用户随时看清自身经济状况，及时调整消费节奏，做到心中有数、规划有度。</string>
+
+    <!-- 使用说明 -->
+    <string name="guide_title">使用说明</string>
+    <string name="guide_usage">【修改消费额度】
+首页的每日、每月消费额度进度条，点击即可弹出修改框，直接输入你想设的额度；也可以点右上角菜单里的「每日额度 / 每月额度」来修改。
+
+【补记过去的账单】
+① 先用上方「日 / 周 / 月 / 年」切换，再点旁边的 ◀ ▶ 箭头，翻到昨天、上周、上月等；
+② 点右下角「＋」记一笔，记账弹窗里的「日期」默认就是当前页面那天，填金额、选类型保存即可；
+③ 若日期不对，点弹窗里的「日期」一栏会弹出日历，手动选到想要的日期再保存。
+
+【快速记账】
+划下通知栏，点「记一笔」，不用打开 App 也能随手记账。</string>
+
+    <!-- 每日消费额度 -->
+    <string name="quota_label">今日消费额度</string>
+    <string name="quota_limit">¥60</string>
+    <string name="quota_used_label">今日已用</string>
+    <string name="tab_day">日</string>
+    <string name="tab_week">周</string>
+    <string name="tab_month">月</string>
+    <string name="tab_year">年</string>
+    <string name="summary_total">总支出</string>
+    <string name="summary_count">笔数</string>
+    <string name="chart_pie_title">消费分布（金额占比 · 扇形统计图）</string>
+    <string name="chart_bar_title">消费频率分布（次数 · 直方图）</string>
+    <string name="fab_add">记一笔</string>
+    <string name="empty_records">暂无记录</string>
+    <string name="delete_confirm_title">删除记录</string>
+    <string name="delete_confirm_msg">确定删除这条消费记录吗？</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="amount">金额（元）</string>
+
+    <!-- 记账弹窗 -->
+    <string name="overlay_title">记录本次消费</string>
+    <string name="overlay_hint">本次消费属于哪一类？</string>
+    <string name="overlay_amount_label">金额</string>
+    <string name="overlay_other">其他原因</string>
+    <string name="overlay_other_hint">请输入其他消费原因</string>
+    <string name="overlay_confirm_other">确认记录</string>
+    <string name="overlay_skip">取消（不记录）</string>
+    <string name="overlay_invalid_amount">请输入有效金额</string>
+    <string name="overlay_recorded">已记录：%1$s  ¥%2$s</string>
+    <string name="manual_title">手动记账</string>
+
+    <!-- 消费原因（分类名，勿改动 id 对应关系） -->
+    <string name="cat_survival_food">生存饮食</string>
+    <string name="cat_comfort_food">舒适度饮食</string>
+    <string name="cat_guanqing">人情</string>
+    <string name="cat_daily_tools">日常必备工具</string>
+    <string name="cat_self_improvement">自我提升消费</string>
+    <string name="cat_utilities">水电费</string>
+    <string name="cat_other">其他原因</string>
+</resources>
